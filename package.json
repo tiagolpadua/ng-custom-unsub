@@ -6,6 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
+    "test.old": "export CHROME_BIN=/usr/bin/google-chrome-stable && ng test",
     "test": "ng test"
   },
   "private": true,
@@ -34,6 +35,7 @@
     "karma-coverage": "~2.1.0",
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "~1.7.0",
+    "puppeteer": "^13.0.1",
     "typescript": "~4.5.2"
   }
 }
